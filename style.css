@@ -1,0 +1,27 @@
+div {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(144, 144, 152);
+    border-radius: 20px;}
+
+img {
+    border-radius: 120px;
+}
+
+p, h4 {
+    text-indent: 10px;
+}
+
+section {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    section {
+        
+        justify-content: flex-start;
+    }
+}
